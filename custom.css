@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#intro{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #ff4a00;
+    color:white;
+
+}
+.bx{
+    padding: 2em;
+}
+.pt{
+    padding-bottom: 10em;
+
+}
+#face{
+    width:200px; /* you can use % */
+    height: auto;
+}
+footer {
+    /* Set the fixed height of the footer here */
+    height: 8em;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+
+
+    background-color: #2f2f2f;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f1ebcd;
+    font-size: 1em;
+
+}
+
+.social-links li{
+    display: inline;
+    padding:0.5em;
+}
+
+.fa,.glyphicon {
+    font-size: 40px;
+    color: #0021a5;
+}
+
+.navbar {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navbar-inverse {
+    background-color: #0021a5;
+    border-color: #0021a5;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #222222;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
